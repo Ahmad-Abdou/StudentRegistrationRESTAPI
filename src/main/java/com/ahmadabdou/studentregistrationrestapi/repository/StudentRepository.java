@@ -6,6 +6,7 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface StudentRepository extends CrudRepository<Student,String> {
 
+
     public Student findByEmailIgnoreCase (String email);
 
     public Student findByFirstName(String firstName);
