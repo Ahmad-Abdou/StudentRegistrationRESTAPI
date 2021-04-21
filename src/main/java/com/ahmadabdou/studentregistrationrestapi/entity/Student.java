@@ -2,12 +2,11 @@ package com.ahmadabdou.studentregistrationrestapi.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.time.LocalDate;
-import java.util.UUID;
+
 
 @Data
 @Entity

@@ -3,7 +3,6 @@ package com.ahmadabdou.studentregistrationrestapi.repository;
 import com.ahmadabdou.studentregistrationrestapi.entity.Student;
 import org.springframework.data.repository.CrudRepository;
 
-import java.util.List;
 
 public interface StudentRepository extends CrudRepository<Student,String> {
 

@@ -1,14 +1,12 @@
 package com.ahmadabdou.studentregistrationrestapi.studentTest;
 
 import com.ahmadabdou.studentregistrationrestapi.entity.Student;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
 import java.time.LocalDate;
-import java.util.UUID;
+
 
 @SpringBootTest
 public class StudentTest {
